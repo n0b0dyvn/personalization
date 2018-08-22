@@ -13,4 +13,5 @@ set fo-=t
 set colorcolumn=80
 highlight ColorColumn ctermbg=122
 
-
+"excute current file with bash
+nnoremap <F9> :!%:p
