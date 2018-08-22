@@ -1,0 +1,5 @@
+network={
+        ssid="BSPT_TENDA"
+        #psk="deptraicogisai"
+        psk=5487b712357a10c479880ea232ec11f8849da040b793aa0129c1ef733a334257
+}
