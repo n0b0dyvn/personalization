@@ -1,0 +1,8 @@
+"init variable
+let vimdir = "~/.sangvh/vim/" " edit it if you clone to new machine
+"Include file neccessary along with keybinding...
+"Filename must end with .vim extension, or it won't work, exclude case when you put odd file in vim
+
+for vimfile in split(globpath(vimdir, "*.vim"), '\n') 
+        execute('source '.vimfile)
+endfor
