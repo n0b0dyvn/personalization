@@ -7,10 +7,10 @@ set expandtab
 
 "Show line number and length
 set number
-set tw=79	"width of document
+set tw=200	"width of document
 set nowrap	"some stuff i dont understand, lmao
 set fo-=t
-set colorcolumn=80
+set colorcolumn=100
 highlight ColorColumn ctermbg=122
 
 "excute current file with bash
